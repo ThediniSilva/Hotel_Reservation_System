@@ -1,0 +1,89 @@
+@import url(header.css);
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  
+}
+ .venue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.venue img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.venue p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+body{
+	  background-image: url('Image/indoor.jpg');
+	    background-size: cover;
+
+}
+hr{
+	border-top: 2px solid black;
+}
+
+.book-now {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */

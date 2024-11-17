@@ -1,0 +1,117 @@
+@import url("header.css");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image : url('Image/faq.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the search container horizontally */
+}
+
+#search-input {
+  padding: 8px 30px 8px 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  width: 500px; /* Adjust the width  */
+  max-width: 100%; /* search input doesn't exceed the container's width */
+}
+
+#search-button {
+  padding: 8px 20px;
+  margin-left: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 0; /* for square corners */
+}
+.arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 10px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background-color: #D6EAF8;
+  border: 1px solid #3498DB;
+  border-radius: 5px;
+  font-weight: normal;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+.faq-answer.expand {
+  display: block;
+  opacity: 1;
+}
+
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */

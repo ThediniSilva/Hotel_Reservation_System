@@ -1,0 +1,335 @@
+body{
+    height: 100vh;
+    width : 100%;
+    background: #000;;
+}
+
+.background{
+    background: url("log in.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width : 100%;
+    filter: blur(5px);
+}
+
+.header{
+    padding: 25px 15%;
+    position: fixed;
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    width :100%;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: rgb(0, 36, 51);
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.navbar a::after{
+    content: "";
+    position: absolute;
+    width : 100%;
+    height: 2px;
+    background: rgb(32, 17, 4);
+    bottom : -5px;
+    border-radius: 2px;
+    transition: .3s ease;
+    transform: translate(10px);
+    left : 0;
+    opacity: 0;
+
+}
+
+.navbar a:hover::after{
+    transform: translateY(0);
+    opacity: 1;
+}
+ 
+
+.middle3{
+    position: absolute;
+    width : 75%;
+    top : 50%;
+    left : 50%;
+    height: 500px;
+    margin-top: 20px;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    background: url("log in.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+}
+
+.text h2{
+      font-size: 40px;
+      color: aliceblue;
+      font-weight: 500;
+      font-family: Tahoma;
+}
+
+.text p{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+
+}
+
+.icon a i{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.icon a:hover i{
+    transform: scale(1.2);
+    background-color: aliceblue;
+}
+.middle3 .log{
+    position: absolute;
+    width: calc(100% - 58%);
+    top :0;
+    right: 0;
+    height: 100%;
+    color: #f2e2e2;
+    
+}
+
+.middle3 .formR{
+    position: absolute;
+    width: calc(100% - 58%);
+    top :0;
+    right: 0;
+    height: 100%;
+    color: #f2e2e2;
+    
+}
+
+.log .form{
+    position: absolute;
+    display: flex;
+    width : 100%;
+    height : 100%;
+    justify-content: center;
+    align-items: center;
+    color: #121111;
+    font-size: large;
+    font-weight: bold;
+}
+
+.fromR .form{
+    position: absolute;
+    display: flex;
+    width : 100%;
+    height : 100%;
+    justify-content: center;
+    align-items: center;
+    color: #121111;
+    font-size: large;
+    font-weight: bold;
+}
+
+.log .form .input{
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid#fff;
+    margin: 30px 0;
+    position: relative;
+
+}
+
+.fromR .form .input{
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid#fff;
+    margin: 30px 0;
+    position: relative;
+
+}
+
+
+ input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size:large;
+    
+}
+
+.log .form .login{
+    transform: translateX(0px);
+    transition: transform .3s ease;
+    transition-delay: 0.7s;
+}
+
+.input label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 600px;
+    pointer-events: none;
+    transition: .3s ease;
+}
+
+.item{
+    position: absolute;
+    background:transparent;
+    justify-content: space-between;
+    display : flex;
+    padding: 80px;
+    flex-direction: column;
+    top : 0;
+    left : 0;
+    width : 58%;
+    height: 100;
+    color: #121111;
+}
+
+.button{
+    background: #fff;
+    width: 75%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #b62b60;
+    font-size: 16px;
+    color: #fff;
+    
+}
+
+.remember{
+    font-size: 14px;
+    font-weight: 500;
+    margin: -15px 0 15px ;
+    display: flex;
+    justify-content: space-between;
+}
+.remember label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+.remember a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .footer-links a{
+      text-decoration:none;
+      margin: 20px;
+  }
+  .social-icons i {
+    font-size: 24px;
+    color: #333; /* Icon color */
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+  }
+  /* -----------------------*/
+  /* END OF THE FOOTER  STYLE
+  --------------------------- */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background-color: rgba(151, 151, 151, 0.03);
+    font-family: Libre Caslon Text;
+    background-image: url('pic17.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+   }
+   * {
+    box-sizing: border-box;
+   
+   }
+   ul {
+    list-style: none;
+   
+   }
+   
+   a {
+    text-decoration: none;
+   }
+   
+   nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background-color: #893c20;
+   }
+   
+   .logo img {
+    height: 35px;
+    position: relative;
+    left:-30px;
+   }
+   
+   nav .menu {
+    display: flex;
+   }
+   
+   nav .menu li a {
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 22px;
+    display: flex;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+    position: relative;
+    left:-20px;
+   }
+   nav .menu li a:hover{
+       background-color: goldenrod;
+       color: #ffffff;
+       box-shadow: 5px 10px 30px 0.2ms;
+       transition: all ease 0.2s;
+   }

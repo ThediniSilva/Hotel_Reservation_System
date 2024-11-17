@@ -1,0 +1,82 @@
+@import url(header.css);
+body {
+  background-color: #FFDAB9;
+}
+h1{ /* Title style */
+	text-align:center; 
+	padding:20px;
+	font-size:50;	
+}
+.slider-container {
+  width: 100%; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center; 
+  margin: 0 auto; 
+}
+
+.slider {
+  display: flex;
+  width: 300%; 
+  animation: slide 10s ;
+}
+
+.slider img {
+  width: 33.333%;
+  height: auto;
+  object-fit: cover; 
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33.333% {
+    transform: translateX(-100%);
+  }
+  66.666% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* -----------------------*/
+/* END OF THE IMAGE SLIDER  STYLE
+--------------------------- */
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */

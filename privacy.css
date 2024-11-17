@@ -1,0 +1,48 @@
+@import url("header.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background-color: rgba(151, 151, 151, 0.03);
+    font-family: Libre Caslon Text;
+    background-attachment: fixed;
+    background-size: cover; 
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #f3f0ec, #b5fbd9, #e5dbeb);
+    background: linear-gradient(to right, #a9acb3, #f7f7f9, #aeaee3);
+   }
+  
+   .footer {
+    background-color: #f0f0f0;
+    padding: 20px; 
+    position: relative;
+    top: 190px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a{
+      text-decoration:none;
+      margin: 20px; 
+  }
+  .social-icons i {
+    font-size: 24px;
+    color: #333; /* Icon color */
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 30px; 
+  }
+  

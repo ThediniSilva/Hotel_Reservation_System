@@ -1,0 +1,145 @@
+.sectionOne{
+    width: 70%;
+    float : left;
+    background-color: aquamarine;
+}
+
+.sectionTwo{
+    width : 40%;
+    background-color: azure;
+}
+ 
+.heading2{
+    text-align: center;
+}
+
+.largeC
+{
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .section-small {
+    flex: 0.25;
+  }
+
+  /* Set the table width to 100% of the section */
+  table {
+     border: 3px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .middle2{
+    width : 100%;
+    align-items: center;
+    float: left;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background-color: rgba(151, 151, 151, 0.03);
+    font-family: Libre Caslon Text;
+    background-image: url('pic17.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+   }
+   * {
+    box-sizing: border-box;
+   
+   }
+   ul {
+    list-style: none;
+   
+   }
+   
+   a {
+    text-decoration: none;
+   }
+   
+   nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background-color: #893c20;
+   }
+   
+   .logo img {
+    height: 35px;
+    position: relative;
+    left:-30px;
+   }
+   
+   nav .menu {
+    display: flex;
+   }
+   
+   nav .menu li a {
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 22px;
+    display: flex;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+    position: relative;
+    left:-20px;
+   }
+   nav .menu li a:hover{
+       background-color: goldenrod;
+       color: #ffffff;
+       box-shadow: 5px 10px 30px 0.2ms;
+       transition: all ease 0.2s;
+   }
+   /* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */

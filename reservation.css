@@ -1,0 +1,146 @@
+@import url("header.css");
+
+h1{
+	font-weight:bold;
+	text-align:center;
+	font-family: "helvetica",Sans-serif;
+	font-size : 24px;
+	color: black;
+	background-color: white;
+}
+body {
+  background-image: url('Image/resBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  color : black;
+}
+
+.reservation-form{
+	width: 90%;
+    background: transparent;
+    backdrop-filter:blur(4px);
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+  }
+  
+ form hr {
+  border-color: black;
+}
+
+input[type="text"] {
+  width: 350px; 
+  height: 25px; 
+}
+
+.form-group {
+  display: inline-block;
+  margin-right: 180px; /* Adjust the spacing between label-input pairs */
+}
+
+input[type="email"] {
+  width: 350px; 
+  height: 25px; 
+}
+
+input[type="number"] {
+  width: 350px; 
+  height: 25px;
+}
+
+.select {
+  width: 350px; 
+  height: 25px; 
+  background-color: #F2F4F4;
+  border: none; /* Remove the border */
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  outline: none; /* Remove the outline */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="date"] {
+  width: 350px; 
+  height: 25px; 
+}
+
+textarea{
+	width:900px;
+	height: 200px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form textarea {
+	background-color: #F2F4F4;
+    border: none; /* Remove the border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none; /* Remove the outline */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+input[type="submit"] {
+  width: 900px
+}
+
+h5{
+	text-align: center;
+}
+
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */
